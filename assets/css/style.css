@@ -1,0 +1,36 @@
+.Background {
+    background-color: beige;
+  }
+
+  .Name {
+    text-align: center;
+    padding: 15px;
+    width: 25%;
+    background-color: yellow;
+    }
+  
+    .Header {
+      text-align: right;
+      padding: 10px;
+      background-color: blueviolet;
+    }
+
+    .Section {
+      text-align: center;
+      height: 150px;
+      width: 150px;
+      background-color: blue;
+    }
+
+    .Aside {
+      float: right;
+      height: 150px;
+      width: 150px;
+      background-color: aqua;
+    }
+
+    .Fotter {
+      height: 80px;
+      width: 100%;
+      background-color: black;
+    }
