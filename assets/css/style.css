@@ -1,24 +1,29 @@
 body {
-    background-color: beige;
+  top: 100px;
+  bottom: 100;
+  background-color: beige;
 
   }
 
-header{ 
-    position: fixed;
-    font-size: 32px;
-    top: 40px;
-    bottom: 50px;
-    margin: 50px;
-    left: 450px;
+header{
+  background-color:teal;
+  padding: 10px;
+  border:5px solid;
+  position: fixed;
+  font-size: 32px; color:sienna;
+  top: 10px;
+  bottom: 30px;
+  margin: 50px;
+  left: 300px;
     
   }
 
 aside {
   position:fixed;
-  left: 870px;
-  top: 100px;
+  left: 150px;
+  top: 500px;
   padding:10px;
-  border:5px solid;
+  border:3px solid;
   height: 100px;
   width: 150px;
 }
@@ -33,14 +38,14 @@ aside {
   position: fixed;
   height: 300px;
   width: 500px;
-  left: 350px;
+  left: 400px;
       
 }
 
 nav {
   position: fixed;
   font-size: 20px;
-  top: 50px;
+  top: 30px;
   bottom: 50px;
   margin: 50px;
   left: 150px;
@@ -49,10 +54,17 @@ nav {
 section {
   position: fixed;
   font-size: 25px;
-  top: 500px;
+  top: 450px;
   bottom: 50px;
   margin: 50px;
-  left: 440px;
+  left: 550px;
 
+}
+
+.button1 {
+  position: fixed;
+  top:100px;
+  bottom:100px;
+  left:250px;
 }
     
