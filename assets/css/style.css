@@ -3,38 +3,56 @@ body {
 
   }
 
-  header{
+header{ 
     position: fixed;
     font-size: 32px;
-    top: 50px;
+    top: 40px;
     bottom: 50px;
     margin: 50px;
     left: 450px;
     
   }
-aside{
-  float:right;
-  margin:25px;
+
+aside {
+  position:fixed;
+  left: 870px;
+  top: 100px;
   padding:10px;
   border:5px solid;
-  height: 150px;
+  height: 100px;
   width: 150px;
 }
 
-    footer {
-      position: fixed;
-      text-align: center;
-      
-    }
-
-    #git {
-      height: 30px;
-      width: 30px;
+#git {
+  height: 30px;
+  width: 30px;
     
-    }
+}
 
-    #bulb {
-      height: 30px;
-      width: 30px;
-    }
+#suiza {
+  position: fixed;
+  height: 300px;
+  width: 500px;
+  left: 350px;
+      
+}
+
+nav {
+  position: fixed;
+  font-size: 20px;
+  top: 50px;
+  bottom: 50px;
+  margin: 50px;
+  left: 150px;
+}
+
+section {
+  position: fixed;
+  font-size: 25px;
+  top: 500px;
+  bottom: 50px;
+  margin: 50px;
+  left: 440px;
+
+}
     
