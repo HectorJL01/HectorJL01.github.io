@@ -1,38 +1,44 @@
-.Background {
+body {
     background-color: beige;
+
+    background-image: url("daft.jpg");
   }
 
-  .Name {
-    float: left;
-    text-align: center;
-    padding: 45px;
-    margin: 35px;
-    background-color: yellow;
-    }
-  
-    .Header {
-      text-align: right;
-      padding: 5px;
-      margin:20px;
-      background-color: blueviolet;
-    }
+  header{
+    font-size: 32px;
+  }
+aside{
+  float:right;
+  margin:25px;
+  padding:10px;
+  border:5px solid;
+  height: 150px;
+  width: 150px;
+  background-color: aquamarine;
+}
 
-    .Section {
+    footer {
+      position: fixed;
       text-align: center;
-      height: 120px;
-      width: 500px;
-      background-color: blue;
+      
     }
 
-    .Aside {
-      float: right;
-      height: 150px;
-      width: 150px;
-      background-color: aqua;
+    #git {
+      height: 30px;
+      width: 30px;
+    
     }
 
-    .Fotter {
-      height: 80px;
-      width: 100%;
-      background-color: black;
+    #hector{
+      height:300px;
+      width: 400px;
+
+      align-content: center;
+      text-align: center;
+      margin:80px;
+      font-size:40px;
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      color:purple;
+
     }
+    
